@@ -20,7 +20,7 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/eed7dbddb754226714c01.jpg" ; // SET LOGO FOR IMAGE 
 global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙺𝙷𝙴𝙼𝙸" 
 
 
@@ -42,8 +42,8 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to show logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/94c5a65a45e7a5afec68c.mp4" // "text" // set Image/video urls here
-global.waPresence= process.env.WAPRESENCE ||  "null" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
+global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/eed7dbddb754226714c01.jpg" // "text" // set Image/video urls here
+global.waPresence= process.env.WAPRESENCE ||https://telegra.ph/file/eed7dbddb754226714c01.jpg | 'recording' | 'paused'
 
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
@@ -74,7 +74,7 @@ module.exports = {
   VERSION : process.env.VERSION || "1.3.8",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝓚𝓗𝓔𝓜𝓘 』```", //
  
-  author : process.env.PACK_AUTHER|| "𝙆𝙃𝙀𝙈𝙄",
+  author : process.env.PACK_AUTHER|| "𝙺𝙷𝙴𝙼𝙸|ℊ𝓇ℯ𝓎",
   packname: process.env.PACK_NAME || "",
   botname : process.env.BOT_NAME  || "𒋝𒇲𒀼𒌨",
   ownername:process.env.OWNER_NAME|| "𝑲𝑯𝑬𝑴𝑰ᴳʳᵉʸ",
